@@ -18,7 +18,7 @@
             android:id="@+id/etSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Search..."
+            android:hint="Cari..."
             android:drawableStart="@android:drawable/ic_menu_search"
             app:layout_constraintEnd_toEndOf="@id/cvNews"
             android:background="@color/cardview_light_background"

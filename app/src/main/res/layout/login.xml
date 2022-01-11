@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:background="@drawable/ic_sign_up"
     tools:context=".ui.LoginActivity">
 
@@ -44,11 +45,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="116dp"
                 android:fontFamily="sans-serif"
-                android:text="Username/e-mail"
+                android:text="E-mail"
                 android:textColor="#9C9C9C"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.136"
+                app:layout_constraintHorizontal_bias="0.113"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -61,7 +62,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:paddingStart="10dp"
-                android:text=""
+                android:hint="@string/email"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.478"
                 app:layout_constraintStart_toStartOf="parent"
@@ -75,6 +76,7 @@
                 android:text="Password"
                 android:textColor="#9C9C9C"
                 android:textSize="16sp"
+
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.113"
                 app:layout_constraintStart_toStartOf="parent"
@@ -90,6 +92,7 @@
                 android:inputType="textPassword"
                 android:paddingStart="10dp"
                 android:text=""
+                android:hint="password"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.478"
                 app:layout_constraintStart_toStartOf="parent"

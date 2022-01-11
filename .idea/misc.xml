@@ -3,8 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/layout/login.xml" value="0.1" />
-        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/layout/signup.xml" value="0.1" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/drawable-v24/ic_all_news.xml" value="0.15885416666666666" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/drawable-v24/ic_sign_up.xml" value="0.15885416666666666" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1109375" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.15885416666666666" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1109375" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/drawable/profil.xml" value="0.1109375" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/drawable/rounded2.xml" value="0.1109375" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/layout-v26/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/layout/about_icon_copy_right.xml" value="0.14270833333333333" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/layout/activity_news.xml" value="0.18" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/layout/fragment_saved_news.xml" value="0.1" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/layout/fragment_search_news.xml" value="0.14270833333333333" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/layout/login.xml" value="0.22" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/layout/signup.xml" value="0.25" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.11504424778761062" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/Downloads/Compressed/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/drawable-v24/hide2.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO/Downloads/Compressed/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/drawable-v24/ic_sign_up.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO/Downloads/Compressed/MVVMNewsApp-Handling-network-exceptions/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />

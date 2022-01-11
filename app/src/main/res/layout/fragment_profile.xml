@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ui.fragments.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/umkmedu"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/slogan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/slogan1"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/profile_image" />
+
+        <TextView
+            android:id="@+id/slogan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/slogan2"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/slogan1" />
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_light"
+            android:justificationMode="inter_word"
+            android:paddingHorizontal="40dp"
+            android:text="@string/deskripsi"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/slogan2" />
+
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/Email"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:text="Email"-->
+        <!--            android:textSize="14dp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.043"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/Nama" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/Email2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:text="Dokja@email.com"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="14dp"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.439"-->
+        <!--            app:layout_constraintStart_toEndOf="@id/Email"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/Nama" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/PW"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:text="Password"-->
+        <!--            android:textSize="14dp"-->
+        <!--            android:textStyle="bold"-->
+
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.045"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/Email" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/PW2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:text="***************"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="14dp"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.331"-->
+        <!--            app:layout_constraintStart_toEndOf="@id/PW"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/Email" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/AL"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:text="Alamat"-->
+        <!--            android:textSize="14dp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.044"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/PW" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/AL2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:text="Surabaya Indonesia"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="14dp"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.429"-->
+        <!--            app:layout_constraintStart_toEndOf="@id/AL"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/PW2" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/PT"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="12dp"-->
+        <!--            android:text="Pendidikan Terakhir"-->
+        <!--            android:textSize="14dp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.06"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/AL" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/PT2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="12dp"-->
+        <!--            android:text="S1 Sistem Informasi"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="14dp"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.107"-->
+        <!--            app:layout_constraintStart_toEndOf="@id/PT"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/AL2" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/P"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="12dp"-->
+        <!--            android:text="Pekerjaan"-->
+        <!--            android:textSize="14dp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.048"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/PT" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/P2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="12dp"-->
+        <!--            android:text="Pengusaha"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="14dp"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.296"-->
+        <!--            app:layout_constraintStart_toEndOf="@id/P"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/PT2" />-->
+
+        <Button
+            android:id="@+id/Tombol"
+            android:layout_width="220dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="20dp"
+            android:background="#C1DFF3"
+            android:elevation="12dp"
+            android:text="Log Out"
+            android:textColor="#22577A"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/deskripsi" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:paddingHorizontal="40dp"
+            android:text="@string/copy_right"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Tombol" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

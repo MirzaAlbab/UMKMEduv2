@@ -48,19 +48,19 @@ class LoginActivity : AppCompatActivity() {
         // function using Firebase auth object
         // On successful response Display a Toast
         if (email.isBlank() || pass.isBlank()) {
-            Toast.makeText(this, "Email and Password can't be blank", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Email dan Password tidak boleh kosong", Toast.LENGTH_SHORT).show()
             return
         }
 
         auth.signInWithEmailAndPassword(email,pass).addOnCompleteListener { task ->
             if(task.isSuccessful){
-                Toast.makeText(this, "Successfully Sign In", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Successfully Log In", Toast.LENGTH_SHORT).show()
                 val intent= Intent(this,NewsActivity::class.java)
                 startActivity(intent)
             }
         }.addOnFailureListener { exception ->
-            Toast.makeText(this, "Failed Sign In", Toast.LENGTH_SHORT).show()
-            Toast.makeText(applicationContext,exception.localizedMessage, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Log In Failed!", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(applicationContext,exception.localizedMessage, Toast.LENGTH_LONG).show()
         }
     }
 }

@@ -49,12 +49,12 @@ class SignUpActivity : AppCompatActivity() {
 
         // check pass
         if (email.isBlank() || pass.isBlank() || confirmPassword.isBlank()) {
-            Toast.makeText(this, "Email and Password can't be blank", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Email dan Password tidak boleh kosong", Toast.LENGTH_SHORT).show()
             return
         }
 
         if (pass != confirmPassword) {
-            Toast.makeText(this, "Password and Confirm Password do not match", Toast.LENGTH_SHORT)
+            Toast.makeText(this, "Password dan Confirm Password tidak cocok", Toast.LENGTH_SHORT)
                 .show()
             return
         }
