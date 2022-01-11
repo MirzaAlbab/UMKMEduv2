@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "984777179280",
+    "project_id": "umkmedu",
+    "storage_bucket": "umkmedu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984777179280:android:90e2a58b4570dfa5711815",
+        "android_client_info": {
+          "package_name": "com.androiddevs.mvvmnewsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984777179280-9v79g13tluiu4rdjlllgerkhnfs9427d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKCqZ6YHYKd6ef-nsTTL9cJvlly-S3oJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984777179280-9v79g13tluiu4rdjlllgerkhnfs9427d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
